@@ -1,0 +1,102 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #808080;
+    transition: color ease-in 300ms;
+}
+
+.main-content {
+    position: relative;
+    top: 64px;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Navigation */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.desktop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+img .logo {
+    height: 32px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.25rem;
+}
+
+.logo-text .colmar {
+    color: black;
+}
+
+@media only screen and (min-width: 481px) {
+    .mobile {
+        display: none;
+    }
+}
+
+/* Mobile navigation */
+
+@media only screen and (max-width: 480px) {
+    .desktop, .logo, .logo-text {
+        display: none;
+    }
+
+    .mobile {
+        width: 100%;
+    }
+
+    header nav li {
+        padding: 0 1.25rem;
+    }
+
+    header .content {
+        padding: 0;
+    }
+}
