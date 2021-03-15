@@ -3,6 +3,7 @@
 html {
     font-size: 16px;
     font-family: 'Merriweather Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 a {
@@ -80,6 +81,48 @@ img .logo {
         display: none;
     }
 }
+
+
+/* Banner section */
+
+.banner-section {
+    background-color: #cfcfcf;
+    padding: 2rem 1.5rem;
+    display: flex;
+}
+
+.banner-image {
+    max-width: 60%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    padding: 0 1.5rem;
+    margin: auto;
+}
+
+.banner-content h1 {
+    display: inline;
+}
+
+.button {
+    background-color: #303030;
+    padding: 0.5rem;
+}
+
+.button p {
+    text-align: center;
+    line-height: 0;
+}
+
+.button a {
+    color: white;
+}
+
 
 /* Mobile navigation */
 
