@@ -123,7 +123,7 @@ img .logo {
 
 #information {
     display: flex;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0 0 1.5rem;
 }
 
 .information-main {
@@ -154,10 +154,6 @@ img .logo {
     padding-bottom: 20px;
 }
 
-.information-boxes {
-
-}
-
 .image-container {
     display: flex;
     margin-bottom: 1rem;
@@ -170,7 +166,7 @@ img .logo {
 }
 
 .info-content {
-    padding-left: 1rem;
+    padding: 0 1rem;
 }
 
 .info-content p {
@@ -181,6 +177,14 @@ img .logo {
     display: inline;
 }
 
+.info-content a {
+    color: rgb(77, 77, 255);
+}
+
+.info-content a:hover {
+    color: #000;
+    transition: color ease-in 500ms;
+}
 .guest-container {
     display: flex;
     background-color: #cfcfcf;
@@ -190,6 +194,15 @@ img .logo {
 .guest-container img {
     max-width: 35%;
     height: auto;
+}
+
+/* Courses section */
+
+.courses {
+    background-color: #efefef;
+    width: 100%;
+    display: flex;
+    padding: 2rem 4.375rem;
 }
 
 
