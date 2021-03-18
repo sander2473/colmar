@@ -170,7 +170,7 @@ img .logo {
 }
 
 .info-content p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .info-content h4 {
@@ -200,11 +200,55 @@ img .logo {
 
 .courses {
     background-color: #efefef;
-    width: 100%;
-    display: flex;
+    max-width: 100%;
     padding: 2rem 4.375rem;
 }
 
+.courses h2 {
+    text-align: center;
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
+
+.course-boxes {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-container {
+    display: block;
+    width: 32%;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.course-image {
+    max-width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.course-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-text {
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.course-text h4 {
+    display: inline;
+}
+
+.course-text p {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
 
 /* Mobile navigation */
 
