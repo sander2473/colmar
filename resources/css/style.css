@@ -25,6 +25,14 @@ a:hover {
     overflow: hidden;
 }
 
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    display: inline;
+}
+
 
 /* Navigation */
 
@@ -204,15 +212,6 @@ img .logo {
     padding: 2rem 4.375rem;
 }
 
-.courses h2 {
-    text-align: center;
-    display: inline;
-}
-
-.center {
-    text-align: center;
-}
-
 .course-boxes {
     display: flex;
     margin-top: 2rem;
@@ -249,6 +248,79 @@ img .logo {
     font-size: 0.75rem;
     margin-top: 0.5rem;
 }
+
+/* Thesis section */
+
+.thesis {
+    max-width: 100%;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+.thesis .center {
+    margin-bottom: 2rem;
+}
+
+.thesis h4 {
+    display: inline;
+}
+
+.thesis p {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.content-box {
+    display: flex;
+}
+
+.video-container {
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+.video-player {
+    margin-bottom: 1.5rem;
+}
+
+.video-player video{
+    width: 100%;
+    height: auto;
+}
+
+.thesis .image-container {
+    align-items: center;
+}
+
+.fisma-container {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 1rem 0 1rem 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.fisma-container img {
+    max-width: 35%;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    font-size: 0.65rem;
+    font-family: Arial, Helvetica, sans-serif;    justify-content: space-between;
+    border-top: 0.5px solid #cfcfcf;
+    position: relative;
+    top: 64px;
+    padding: 1rem 1.5rem 0;
+}
+
+.footer-links {
+    float: right;
+}
+
+
 
 /* Mobile navigation */
 
