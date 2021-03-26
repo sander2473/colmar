@@ -400,7 +400,7 @@ footer {
         border-bottom: 0.5px solid #cfcfcf;
     }
 
-    .information-main {
+    .information-main, .content-image, #content-image {
         display: none;
     }
 
@@ -434,6 +434,90 @@ footer {
     .guest-container img {
         width: 100%;
         height: 150px;
+    }
+}
+
+
+/* Mobile courses section */
+
+@media only screen and (max-width: 480px) {
+    .courses {
+        display: block;
+        padding: 2rem 1rem;
+        background-color: #fff;
+        border-bottom: 0.5px solid #cfcfcf;
+    }
+
+    .course-boxes {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .course-image, .course-text p {
+        display: none;
+    }
+
+    .course-container {
+        width: 100%;
+    }
+
+    .course-text {
+        background-color: #cfcfcf;
+        padding: 1rem 1rem 1.5rem 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .course-text h4 {
+        display: inline;
+        align: center;
+    }
+
+    .course-text :hover {
+        color:rgb(77, 77, 255);
+        transition: color ease-in 300ms;
+    }
+}
+
+/* Mobile thesis section */
+
+@media only screen and (max-width: 480px){
+    .thesis .information-boxes, .thesis .fisma-container{
+        display: none;
+    }
+
+    .thesis h4, .thesis p {
+        display: none;
+    }
+
+    .thesis {
+        padding: 2rem 0;
+    }
+
+    .content-box {
+        display: block;
+        width: 100%;
+    }
+
+    .video-container {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .video-player {
+        margin-bottom: 0;
+    }
+}
+
+/* Mobile footer */
+
+@media only screen and (max-width: 480px) {
+    .footer-links {
+        display: none;
+    }
+
+    footer {
+        padding: 1rem;
     }
 }
 
