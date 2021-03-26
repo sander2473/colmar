@@ -219,6 +219,10 @@ img .logo {
     max-width: 100%;
 }
 
+.content-image-mobile {
+    display: none;
+}
+
 .guest-container img {
     max-width: 100%;
     height: auto;
