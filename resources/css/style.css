@@ -353,8 +353,12 @@ footer {
         margin: 0;
     }
     
-    .desktop, .logo, .logo-text {
+    .desktop, .desktop a, .logo, .logo-text {
         display: none;
+    }
+
+    header .content .mobile ul {
+        padding-left: 0px;
     }
 
     .mobile {
@@ -363,10 +367,11 @@ footer {
 
     header nav ul {
         align-items: center;
+        justify-content: space-evenly;
     }
 
     header nav li {
-        padding: 0 1.4rem;
+        padding: 0 1.25rem;
     }
 
     header .content {
@@ -393,6 +398,7 @@ footer {
     .banner-content h1 {
         font-size: 2rem;
     }
+
 }
 
 /* Mobile information section */
@@ -429,6 +435,11 @@ footer {
         max-width: 100%;
     }
 
+    .content-image-mobile {
+        display: block;
+        max-width: 100%;
+    }
+
     .guest-container {
         display: block;
         background-color: #fff;
@@ -460,6 +471,7 @@ footer {
     .course-image, .course-text p {
         display: none;
     }
+
 
     .course-container {
         width: 100%;
